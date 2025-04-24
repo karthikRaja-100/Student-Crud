@@ -25,5 +25,5 @@ public class Employee {
     private String email;
 
     @Column(name= "salary")
-    private double salary;
+    private Double salary;
 }
