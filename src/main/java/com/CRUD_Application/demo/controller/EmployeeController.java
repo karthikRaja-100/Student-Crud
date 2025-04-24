@@ -45,8 +45,5 @@ public class EmployeeController {
     public ResponseEntity<Map<String, Object>> deleteEmployee(@PathVariable int id) {
         return ResponseEntity.ok(employeeService.deleteById(id));
     }
-    @GetMapping("/message")
-    public Integer testing(){
-        return 1;
-    }
+    
 }
